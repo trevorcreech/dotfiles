@@ -1,0 +1,10 @@
+alias jr="jruby -J-Xmx1024m -X-C --client -S"
+alias gb="git branch"
+alias gs="git status"
+#alias gd="git diff | mate"
+
+#gd () { git diff $1 | mate}
+
+alias rd="rvm 1.8.7@involver-deploy"
+alias t="rvm 1.9.2 && terminitor start"
+alias ci="cd ~/Code/involver-rails/"
