@@ -1,6 +1,6 @@
 require 'rubygems'
 
-%w|rubygems wirble hirb|.each do|lib|
+%w|rubygems wirble|.each do|lib|
   begin
     require lib
   rescue LoadError => err
@@ -11,9 +11,6 @@ end
 
 Wirble.init
 Wirble.colorize
-
-#Hirb::View.enable
-
 
 # sample data
 HASH = { 
